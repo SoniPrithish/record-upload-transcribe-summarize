@@ -1,0 +1,26 @@
+{
+  "name": "zoom-recorder",
+  "version": "1.0.0",
+  "description": "Automated Zoom meeting recorder with transcription and cloud upload",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "zoom",
+    "recording",
+    "automation",
+    "transcription"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "chalk": "^4.1.2",
+    "dotenv": "^16.3.1",
+    "fluent-ffmpeg": "^2.1.2",
+    "node-cron": "^4.2.1"
+  }
+}
