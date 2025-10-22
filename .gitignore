@@ -1,0 +1,13 @@
+node_modules/
+.env
+config/config.json
+config/token.json
+recordings/
+transcripts/
+*.log
+.DS_Store
+*.mp4
+*.webm
+*.mp3
+*.wav
+
