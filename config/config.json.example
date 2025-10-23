@@ -1,0 +1,20 @@
+{
+  "zoom": {
+    "meetingLink": "https://zoom.us/j/123456789",
+    "password": "meeting-password",
+    "displayName": "Your Name"
+  },
+  "cloudStorage": {
+    "provider": "google-drive",
+    "folderName": "Zoom Recordings"
+  },
+  "recording": {
+    "outputDir": "./recordings",
+    "quality": "high"
+  },
+  "ai": {
+    "transcriptionModel": "whisper-1",
+    "summaryModel": "gpt-4"
+  }
+}
+
